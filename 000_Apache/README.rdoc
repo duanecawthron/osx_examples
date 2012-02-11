@@ -1,0 +1,39 @@
+= Apache Web Server
+
+== Software versions
+
+    Mac OS X Lion v10.7.2
+
+== Introduction
+
+These are just a few notes about running Apache on OS X.
+
+== How to start Apache
+
+	From: http://www.sitepoint.com/os-x-web-development/
+	Start the Apache Web server in the System Preferences menu by selecting Sharing and turning on Personal Web Sharing.
+
+== How to enable PHP
+
+	From: http://foundationphp.com/tutorials/php_leopard.php
+	edit /private/etc/apache2/httpd.conf and uncomment this line
+		LoadModule php5_module libexec/apache2/libphp5.so
+	copy /private/etc/php.ini.default /private/etc/php.ini
+	restart Apache
+
+== Files
+
+	/etc/apache2/httpd.conf
+	/etc/php.ini
+	/Library/WebServer/Documents/
+	~/Sites
+
+== Links
+
+	http://localhost/
+	http://localhost/~<user>/
+
+
+QUESTION
+
+What is the difference between /private/etc and /etc
