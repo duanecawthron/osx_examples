@@ -34,6 +34,6 @@ These are just a few notes about running Apache on OS X.
     http://localhost/~<user>/
 
 
-QUESTION
+== QUESTION
 
 What is the difference between /private/etc and /etc
