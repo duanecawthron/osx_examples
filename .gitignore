@@ -1,5 +1,5 @@
 .DS_Store
 
 # Xcode 4
-project.xcworkspace/
-xcuserdata/
+#project.xcworkspace/
+#xcuserdata/
